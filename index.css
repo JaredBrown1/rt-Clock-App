@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url("./assets/bg-image-daytime.jpg");
+	color: #fff;
+	font-family: "Roboto", "sans-serif";
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-left: 150px;
+}
+
+.quotes {
+	text-align: left;
+	padding-top: 50px;
+	width: 600px;
+}
+
+.bottom-half {
+	display: flex;
+	align-items: flex-end;
+}
+
+.bottom-half h1 {
+	margin: 0;
+	font-size: 200px;
+}
+
+.morn-night {
+	font-size: 20px;
+	line-height: 28px;
+	text-align: left;
+}
+
+.time {
+	margin-top: 250px;
+	width: 500px;
+}
+
+.location {
+	text-align: left;
+	font-size: 24px;
+}
+
+.btn-container {
+	margin-left: 600px;
+}
